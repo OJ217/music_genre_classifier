@@ -1,0 +1,63 @@
+[
+  {
+    "model": "RandomForestClassifier",
+    "best_score": 0.71,
+    "best_params": {
+      "max_depth": null,
+      "min_samples_leaf": 2,
+      "min_samples_split": 5,
+      "n_estimators": 200
+    }
+  },
+  {
+    "model": "KNeighborsClassifier",
+    "best_score": 0.68875,
+    "best_params": {
+      "n_neighbors": 3,
+      "p": 1,
+      "weights": "distance"
+    }
+  },
+  {
+    "model": "MLPClassifier",
+    "best_score": 0.7637499999999999,
+    "best_params": {
+      "activation": "tanh",
+      "alpha": 0.0001,
+      "hidden_layer_sizes": [
+        50
+      ],
+      "learning_rate": "constant"
+    }
+  },
+  {
+    "model": "CatBoostClassifier",
+    "best_score": 0.73625,
+    "best_params": {
+      "depth": 4,
+      "iterations": 200,
+      "l2_leaf_reg": 1,
+      "learning_rate": 0.1
+    }
+  },
+  {
+    "model": "XGBClassifier",
+    "best_score": 0.7375,
+    "best_params": {
+      "learning_rate": 0.1,
+      "max_depth": 3,
+      "n_estimators": 200,
+      "subsample": 0.8
+    }
+  },
+  {
+    "model": "SVC",
+    "best_score": 0.7737499999999999,
+    "best_params": {
+      "C": 10,
+      "degree": 2,
+      "gamma": "scale",
+      "kernel": "rbf"
+    }
+  }
+]
